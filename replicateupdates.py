@@ -1,4 +1,14 @@
 #!/usr/bin/env python
+
+# Copyright (c) 2017, Willer Penton Posada
+#
+#  version 1.0 
+#  created on April 2017
+#
+#
+#-----------------------------------------------------------------------
+# This script is for upload files to diferents host, loading the list of host from a file, the list of files to upload from a directory ans using an ftp username, password and port
+#
 import sys
 from ftpUtils import FtpWpp
 from workWithioFiles import IOFilesUtils
